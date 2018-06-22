@@ -3,12 +3,14 @@
     "description": "Fork of official yii2 queue extension",  
     "license": "BSD",  
     "type": "yii2-extension",  
-    "repositories": [  
-        {  
-            "url": "https://github.com/yiisoft/yii2-queue"  
-        }  
-    ],  
+
     "require": {  
         "yiisoft/yii2-queue": "~2.0"
     }  
+    "repositories": [  
+        {  
+            "type": "vcs",
+            "url": "https://github.com/yiisoft/yii2-queue"  
+        }  
+    ],  
 }
